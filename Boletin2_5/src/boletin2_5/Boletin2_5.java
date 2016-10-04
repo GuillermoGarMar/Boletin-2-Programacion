@@ -17,7 +17,7 @@ public class Boletin2_5 {
     public static void main(String[] args) {
         // TODO code application logic here
         double millas,metros,cte;
-        cte=1609.344 ;
+       final cte=1609.344 ;
         millas = Double.parseDouble(JOptionPane.showInputDialog("Millas:"));
         metros= millas*cte;
         System.out.println("Millas-Metros= "+metros);
