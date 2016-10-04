@@ -17,9 +17,10 @@ public class Boletin2_6 {
     public static void main(String[] args) {
         // TODO code application logic here
         double tarif,prez,desc;
-        tarif= Double.parseDouble(JOptionPane.showInputDialog("Tarifa:"));
-        prez= Double.parseDouble(JOptionPane.showInputDialog("Precio:"));
-        desc=(tarif*100)/prez;
+        prez= Double.parseDouble(JOptionPane.showInputDialog("Precio inicial:"));
+        tarif= Double.parseDouble(JOptionPane.showInputDialog("Nos costo:"));
+        
+        desc=(prez-tarif)/prez*100;
         System.out.println("El descuento es del "+desc+"%");
     }
     
