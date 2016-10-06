@@ -20,6 +20,8 @@ public class Boletin2_7 {
         n= Double.parseDouble(JOptionPane.showInputDialog("Valor n:"));
         t= Double.parseDouble(JOptionPane.showInputDialog("Valor t:"));
         i= Double.parseDouble(JOptionPane.showInputDialog("Valor i:"));
+        t=t*12;
+        i= i/1200;
         renda= (n* Math.pow((1+i),t)*i)/Math.pow((1+i), t);
         System.out.println("A renda é: "+ renda);
     }
