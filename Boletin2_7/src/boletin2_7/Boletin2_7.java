@@ -16,10 +16,10 @@ public class Boletin2_7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Double n,t,i,renda;
+        double n,t,i,renda;
         n= Double.parseDouble(JOptionPane.showInputDialog("Valor n:"));
         t= Double.parseDouble(JOptionPane.showInputDialog("Valor t:"));
-        i= Double.parseDouble(JOptionPane.showInputDialog("Valor 1:"));
+        i= Double.parseDouble(JOptionPane.showInputDialog("Valor i:"));
         renda= (n* Math.pow((1+i),t)*i)/Math.pow((1+i), t);
         System.out.println("A renda é: "+ renda);
     }
